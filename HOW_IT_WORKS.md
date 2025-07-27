@@ -1,11 +1,11 @@
 # SEBI Compliance AI System: Technical Architecture & Scaling Strategy
 
-## 🎥 **2-Minute Technical Overview**
+## 🎥 **Technical Overview**
 
 ---
 
 ### **System Overview**
-*"We built an AI-powered regulatory reference extraction system for SEBI compliance teams. Here's the technical architecture, evaluation approach, and scaling strategy for enterprise deployment."*
+*"An AI-powered regulatory reference extraction system for SEBI compliance teams. Here's the technical architecture, evaluation approach, and scaling strategy for enterprise deployment."*
 
 ---
 
@@ -26,19 +26,17 @@
 
 ### **2. High-Level Approach & Evaluation**
 
-**Three-Phase Strategy:**
-
-**Phase 1 - Contextual Prompting:**
+**Contextual Prompting:**
 - Built comprehensive target database of local circulars
 - Enhanced prompts with regulatory context and examples
 - Implemented confidence scoring with AI reasoning
 
-**Phase 2 - Validation & Verification:**
+**Validation & Verification:**
 - Cross-referenced results against known circular databases
 - Manual spot-checking of high-confidence extractions
 - A/B tested different prompt strategies for accuracy
 
-**Phase 3 - Iterative Refinement:**
+**Iterative Refinement:**
 - Analyzed false positives/negatives
 - Refined categorization (SEBI circulars, regulations, acts, platforms)
 - Built feedback loop for continuous improvement
@@ -320,33 +318,6 @@ interface MonitoringMetrics {
 
 ---
 
-## 📊 **Implementation Roadmap**
-
-### **Phase 1: Foundation (Months 1-3)**
-- [ ] Core AI processing pipeline
-- [ ] Basic requirements extraction
-- [ ] PostgreSQL schema design
-- [ ] Initial API endpoints
-
-### **Phase 2: Intelligence (Months 4-6)**
-- [ ] Semantic clustering implementation
-- [ ] Knowledge graph construction
-- [ ] Advanced search capabilities
-- [ ] Compliance scoring algorithms
-
-### **Phase 3: Scale (Months 7-9)**
-- [ ] Multi-tenant architecture
-- [ ] Real-time processing pipeline
-- [ ] Advanced analytics dashboard
-- [ ] Enterprise integrations
-
-### **Phase 4: Innovation (Months 10-12)**
-- [ ] Predictive compliance modeling
-- [ ] Automated compliance gap detection
-- [ ] Regulatory change impact analysis
-- [ ] AI-powered compliance recommendations
-
----
 
 ## 🚀 **Technology Risk Mitigation**
 
