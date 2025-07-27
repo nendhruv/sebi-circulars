@@ -1,27 +1,32 @@
 {
-  "name": "bridge-athletic-task",
-  "version": "0.1.0",
-  "private": true,
+  "name": "sebi-compliance-reference-finder",
+  "version": "1.0.0",
+  "description": "AI-powered SEBI compliance reference finder for regulatory document analysis",
+  "main": "sebi-reference-finder.js",
+  "type": "module",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "analyze": "node sebi-reference-finder.js",
+    "test": "node sebi-reference-finder.js --help"
   },
   "dependencies": {
-    "react": "19.1.0",
-    "react-dom": "19.1.0",
-    "next": "15.4.4"
+    "@google/generative-ai": "^0.21.0",
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0",
+    "dotenv": "^17.2.1",
+    "fs-extra": "^11.2.0",
+    "ora": "^8.1.0",
+    "pdf-parse": "^1.1.1"
   },
-  "devDependencies": {
-    "typescript": "^5",
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4",
-    "eslint": "^9",
-    "eslint-config-next": "15.4.4",
-    "@eslint/eslintrc": "^3"
-  }
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "sebi",
+    "compliance",
+    "regulatory",
+    "pdf",
+    "ai",
+    "reference-finder",
+    "cli"
+  ]
 }
